@@ -21,7 +21,7 @@ for i, row in df.iterrows():
     deflate_filename = os.path.join(deflate_dir, f"review_{i}.zip")
 
     # Truncate the review text to 20 words
-    review_words = row['review'].split()[:20]
+    review_words = row['review'].split()[:4]
     truncated_review = ' '.join(review_words)
 
     # Write the truncated review to a text file
@@ -56,7 +56,7 @@ for i, row in df.iterrows():
 new_df = pd.DataFrame(new_dataset)
 
 # Save the new DataFrame to a CSV file
-new_df.to_csv('new_dataset_deflate.csv', index=False)
+new_df.to_csv('shorthex2hex.csv', index=False)
 
 # Force removing of the directories
 shutil.rmtree(text_dir)
