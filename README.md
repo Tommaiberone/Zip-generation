@@ -1,6 +1,6 @@
 # Seq2Seq medium edit distance
 
-| Model               | Short Sentences <br> (avg gold len = 55.33)  | Medium Sentences <br> (avg gold len = 97.22) | Count Zero w/short   | Couny Zero w/medium
+| Model               | Short Sentences <br> (avg gold len = 55.33)  | Medium Sentences <br> (avg gold len = 97.22) | Count Zero w/short   | Count Zero w/medium
 |---------------------|----------------------------------------------|----------------------------------------------|----------------------|--------------------
 | bart-base           | 7.3                                          | /                                            | /                    |
 | bart-large          | 6.965                                        | 29.86                                        | 37                   | 0
